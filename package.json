@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "mathjs": "^3.18.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sanitize.css": "^5.0.0",
+    "styled-components": "^2.4.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",

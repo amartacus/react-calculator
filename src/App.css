@@ -1,24 +1,45 @@
-.App {
-  text-align: center;
+html,
+body,
+#root,
+.calculator-container{
+  height: 100%;
+}
+.display-container{
+  font-size: 6rem;
+}
+.button-container,
+.button-container .row{
+  flex: 1 0 auto;
+}
+.button-container button{
+  border-radius: 0;
+  box-shadow: none !important;
+  font-size: 5rem;
+}
+.button-container .right-panel button{
+  font-size: 4rem;
+}
+/* Media queries for vertical scaling */
+@media (max-height: 850px){
+  html{
+    font-size: 14px;
+  }
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+@media (max-height: 750px){
+  html{
+    font-size: 10px;
+  }
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+@media (max-height: 550px){
+  html{
+    font-size: 8px;
+  }
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media (max-height: 450px){
+  html{
+    font-size: 6px;
+  }
 }
